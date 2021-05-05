@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kris-nova/logger"
-	photoprism "github.com/kris-nova/photoprism-client-go"
-	"github.com/kris-nova/photoprism-client-go/api/v1"
+	"github.com/astravexton/logger"
+	photoprism "github.com/astravexton/photoprism-client-go"
+	"github.com/astravexton/photoprism-client-go/api/v1"
 )
 
 func main() {

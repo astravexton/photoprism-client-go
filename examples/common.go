@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	photoprism "github.com/kris-nova/photoprism-client-go"
+	photoprism "github.com/astravexton/photoprism-client-go"
 
-	"github.com/kris-nova/logger"
+	"github.com/astravexton/logger"
 )
 
 // format string, a ...interface{}

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"path"
 
-	"github.com/kris-nova/logger"
-	photoprism "github.com/kris-nova/photoprism-client-go"
+	"github.com/astravexton/logger"
+	photoprism "github.com/astravexton/photoprism-client-go"
 )
 
 func main() {

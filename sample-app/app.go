@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/kris-nova/logger"
+	"github.com/astravexton/logger"
 
-	"github.com/kris-nova/photoprism-client-go"
+	"github.com/astravexton/photoprism-client-go"
 )
 
 type SampleApplication struct {

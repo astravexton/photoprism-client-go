@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kris-nova/logger"
+	"github.com/astravexton/logger"
 )
 
 // Script is a set of commands delimited by newlines

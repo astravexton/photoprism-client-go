@@ -2,7 +2,7 @@
 
 Go client for the Photoprism Application.
 
-**Author**: [Kris Nóva](https://github.com/kris-nova) <kris@nivenly.com>
+**Author**: [Kris Nóva](https://github.com/astravexton) <kris@nivenly.com>
 
 ---
 
@@ -10,7 +10,7 @@ Go client for the Photoprism Application.
 
 ```bash 
 
-go get github.com/kris-nova/photoprism-client-go
+go get github.com/astravexton/photoprism-client-go
 
 ```
 
@@ -59,8 +59,8 @@ import (
 	"io/ioutil"
 	"path"
 
-	photoprism "github.com/kris-nova/photoprism-client-go"
-	"github.com/kris-nova/logger"
+	photoprism "github.com/astravexton/photoprism-client-go"
+	"github.com/astravexton/logger"
 )
 
 func main()

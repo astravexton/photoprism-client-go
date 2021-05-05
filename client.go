@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	v1 "github.com/kris-nova/photoprism-client-go/api/v1"
+	v1 "github.com/astravexton/photoprism-client-go/api/v1"
 )
 
 const (
@@ -99,7 +99,7 @@ func (c *Client) V1() *v1.V1Client {
 func (c *Client) Auth(auth ClientAuthenticator) error {
 	c.authenticator = auth
 
-	// @kris-nova We are returning V1 by default
+	// @astravexton We are returning V1 by default
 	return c.LoginV1()
 }
 

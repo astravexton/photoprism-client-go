@@ -3,11 +3,11 @@ package test
 import (
 	"testing"
 
-	"github.com/kris-nova/photoprism-client-go"
+	"github.com/astravexton/photoprism-client-go"
 )
 
 // Trailing slash issue
-// https://github.com/kris-nova/photoprism-client-go/issues/2
+// https://github.com/astravexton/photoprism-client-go/issues/2
 func TestRegressionIssue2(t *testing.T) {
 	testStrings := []string{"localhost/", "localhost///////", "localhost//"}
 	goal := "localhost"
