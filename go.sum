@@ -1,2 +1,4 @@
 github.com/astravexton/logger v0.2.1 h1:nYxhV6oCHIJzUzaPhawbAc51EEvJowIViVsB5EbdeJQ=
 github.com/astravexton/logger v0.2.1/go.mod h1:6uxVhLlWlvZn48W8F52dsMXt4yztlrInpRhdWiJ9RXc=
+github.com/kris-nova/logger v0.2.1 h1:hbZusgXXXTSd0rNAMBBe/8lhjxXkqWs0+nzjwewCI+E=
+github.com/kris-nova/logger v0.2.1/go.mod h1:++9BgZujZd4v0ZTZCb5iPsaomXdZWyxotIAh1IiDm44=

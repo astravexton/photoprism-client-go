@@ -127,3 +127,19 @@ func (v1 *V1Client) PhotoPrimary(uuid, fileuuid string) error {
 	resp := v1.POST(nil, "/api/v1/photos/%s/files/%s/primary", uuid, fileuuid)
 	return resp.Error
 }
+
+// POST /api/v1/photos/:uid/label
+//
+// Parameters:
+//   uid: string PhotoUID as returned by the API
+func (v1 *V1Client) AddPhotoLabel(uuid string, name string) error {
+	payload := struct {
+		Name     string `json:"Name"`
+		Priority int    `json:"Priority"`
+	}{
+		Name:     name,
+		Priority: 10,
+	}
+	resp := v1.POST(payload, "/api/v1/photos/%s/label", uuid)
+	return resp.Error
+}
