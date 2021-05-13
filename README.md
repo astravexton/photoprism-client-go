@@ -2,7 +2,7 @@
 
 Go client for the Photoprism Application.
 
-**Author**: [Kris Nóva](https://github.com/astravexton) <kris@nivenly.com>
+**Author**: [Kris Nóva](https://github.com/kris-nova) <kris@nivenly.com>
 
 ---
 
